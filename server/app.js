@@ -17,7 +17,7 @@ connectDB()
 
 const app = express()
 
-if (process.env.development === 'development') {
+if (process.env.NODE_ENV === 'production') {
   app.use(morgan('dev'))
 }
 
@@ -55,6 +55,6 @@ const PORT = process.env.PORT || 8000
 app.listen(
   PORT,
   console.log(
-    `Server running in ${process.env.development} mode on port ${PORT}`.yellow.bold
+    `Server running in ${process.env.production} mode on port ${PORT}`.yellow.bold
   )
 )
