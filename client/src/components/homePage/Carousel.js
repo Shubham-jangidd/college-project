@@ -35,7 +35,7 @@ const Carousel = () => {
             className='carousel-item active'
             style={{
               backgroundImage:
-                'url("https://source.unsplash.com/RCAhiGJsUUE/1920x1080")',
+                'url("https://images.unsplash.com/photo-1466027397211-20d0f2449a3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2918&q=80/1920x1080")',
             }}
           >
             <div className='carousel-caption'>
@@ -49,7 +49,7 @@ const Carousel = () => {
             className='carousel-item'
             style={{
               backgroundImage:
-                'url("https://source.unsplash.com/wfh8dDlNFOk/1920x1080")',
+                'url("https://images.unsplash.com/photo-1640607747951-91bb676e3f96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80/1920x1080")',
             }}
           >
             <div className='carousel-caption'>
@@ -63,7 +63,7 @@ const Carousel = () => {
             className='carousel-item'
             style={{
               backgroundImage:
-                'url("https://source.unsplash.com/lHGeqh3XhRY/1920x1080")',
+                'url("https://images.unsplash.com/photo-1560807310-21f376a29d33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80/1920x1080")',
             }}
           >
             <div className='carousel-caption'>
